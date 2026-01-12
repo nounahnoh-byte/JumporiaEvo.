@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  background: black;
+  color: white;
+  font-family: Arial;
+  text-align: center;
+}
+
+#ui {
+  background: rgba(0,0,0,0.7);
+  padding: 8px;
+  display: flex;
+  justify-content: space-around;
+}
+
+canvas {
+  display: block;
+  margin: auto;
+  border: 2px solid white;
+  background: #5c94fc;
+}
+
+/* أزرار الهاتف */
+#mobileControls {
+  position: fixed;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  pointer-events: auto;
+}
+
+#mobileControls button {
+  font-size: 28px;
+  padding: 14px 18px;
+  border-radius: 50%;
+  border: none;
+  background: rgba(0,0,0,0.7);
+  color: white;
+}
+
+#overlay {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.7);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#overlay h1 {
+  font-size: 32px;
+}

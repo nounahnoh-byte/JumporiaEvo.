@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<title>Jumporia 2</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="ui">
+  <span>النتيجة: <span id="score">0</span></span>
+  <span>أعلى نتيجة: <span id="best">0</span></span>
+</div>
+
+<canvas id="game" width="800" height="400"></canvas>
+
+<!-- أزرار الهاتف -->
+<div id="mobileControls">
+  <button id="leftBtn">⬅️</button>
+  <button id="jumpBtn">⤴️</button>
+  <button id="rightBtn">➡️</button>
+</div>
+
+<div id="overlay">
+  <h1 id="overlayText">اضغط للعب</h1>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
